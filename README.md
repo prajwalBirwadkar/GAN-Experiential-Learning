@@ -29,10 +29,16 @@ Generator Loss: Spikes to -14.5 and 16.9, indicating critic/generator imbalance.
 Behavior: Severe instability likely due to aggressive weight clipping (clip_value=0.01) or insufficient critic updates (n_critic=5).
 
 Evaluation Metrics
+
 Model	Inception Score (↑)	FID Score (↓)
+
 BCE GAN	4.75	720.10
+
 LS-GAN	4.48	706.17
+
 WGAN	2.25	1085.42
+
+
 Key Observations:
 
 LS-GAN achieves the best FID score, suggesting better image quality and diversity.
